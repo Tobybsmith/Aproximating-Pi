@@ -22,7 +22,7 @@ public class Dice
         }
 
         double percentPrime = coPrimes/N;
-        System.out.println("Percent Co-Prime " + percentPrime + "%");
+        System.out.println("Percent Co-Prime " + 100*percentPrime + "%");
         
         pi = Math.sqrt(6.0/percentPrime);
         System.out.println(pi);
