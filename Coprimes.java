@@ -1,20 +1,21 @@
 import java.util.*;
 
-public class Coprimes
+public class Main
 {
-    public static void main()
+    public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         Random rd = new Random();
+        //The approx. of pi
+        double pi = 0;
         //Number of times to run the math loop
         int n = sc.nextInt();
-        int total = 0;
-        for(int i = 0; i < n; i++)
+        //How many coprimes are found
+        long totalCo = 0;
+        for(long i = 0; i < n; i++)
         {
-            if(coprimeTest(rd.nextInt(1000), rd.nextInt(1000)))
-            {
-                total++;
-            }
+            //The coprimeTest always responds with true. This is wrong.
+            System.out.println(coprimeTest(rd.nextInt(1000) + 1, rd.nextInt(1000) + 1));
         }
     }
     
@@ -40,7 +41,7 @@ public class Coprimes
     public static int[] divisorGet(int a)
     {
         ArrayList<Integer> arr = new ArrayList<Integer>();
-        int divisor = 2;
+        int divisor = 1;
         for(int i = 0; i < a; i++)
         {
             if(a%divisor == 0)
