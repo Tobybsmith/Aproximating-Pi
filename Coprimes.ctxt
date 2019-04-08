@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Coprimes
+comment1.params=
+comment1.target=void\ main()
+comment2.params=a\ b
+comment2.target=boolean\ coprimeTest(int,\ int)
+comment3.params=a
+comment3.target=int[]\ divisorGet(int)
+comment4.params=integers
+comment4.target=int[]\ convertIntegers(java.util.List)
+comment5.params=a\ b
+comment5.target=int\ getLargest(int,\ int)
+numComments=6
