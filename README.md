@@ -1,5 +1,5 @@
 //TODO
 
-Then make it work
+-Collisions and pi
 
-The make it work in D
+-Montecarlo method/Dartboard
