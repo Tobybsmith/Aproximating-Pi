@@ -2,4 +2,4 @@
 
 -Collisions and pi
 
--Montecarlo method/Dartboard
+Currently the leibnitz series is the fastest and most percise, next is the dartboard, then the dice method is slow and not consistent
